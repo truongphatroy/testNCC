@@ -1,0 +1,37 @@
+.detailItem {
+  .detailItemCancel {
+    color: black;
+    text-align: end;
+
+    svg {
+      width: 1.4rem;
+      height: 1.4rem;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+  .detailItemCard {
+    border: none;
+    color: rgb(0, 0, 0, 0.7);
+    .desc {
+    }
+    .detailItemImage {
+      border: none;
+      width: 80%;
+    }
+    .detailItemTitle {
+      color: rgb(0, 0, 0, 0.9);
+    }
+    .detailItemBtn {
+      color: rgb(255, 255, 255, 1);
+      svg {
+        fill: white;
+        width: 1rem;
+        height: 1rem;
+        margin: 0.3rem;
+        margin-right: 1rem;
+      }
+    }
+  }
+}

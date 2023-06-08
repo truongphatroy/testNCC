@@ -1,0 +1,15 @@
+.ShopBanner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  //   margin: 2rem;
+  height: 8rem;
+  background: rgb(221, 207, 207, 0.5);
+  padding: 2rem;
+  h1 {
+    color: rgba(229, 70, 70, 0.6);
+  }
+  p {
+    color: rgb(0, 0, 0, 0.5);
+  }
+}

@@ -1,0 +1,29 @@
+.ProductShowSidebar {
+  grid-column: 1 / 2;
+  width: 200px;
+  // border-right: 1px solid black;
+  height: 100vh;
+  h4 {
+    font-size: 1.2rem;
+  }
+  .ProductShowList {
+    list-style-type: none;
+    padding-left: 0rem;
+    li {
+      padding: 0.3rem 0.3rem 0.3rem 1rem;
+    }
+    .ProductShowTitle {
+      background-color: black;
+      color: rgb(255, 255, 255, 0.8);
+    }
+    .mainitem {
+      background-color: rgb(230, 242, 247, 0.7);
+    }
+    .subitem {
+      &:hover {
+        cursor: pointer;
+        color: rgb(255, 165, 0, 0.8);
+      }
+    }
+  }
+}

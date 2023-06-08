@@ -1,0 +1,70 @@
+.chatGroup {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    padding-bottom: 0.1rem;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.15);
+    .title {
+      font-size: 1rem !important;
+    }
+    .appName {
+      font-size: 14px !important;
+      padding: 2px 4px;
+      background: gainsboro;
+      &:hover {
+        cursor: pointer;
+        background: rgb(230, 170, 50);
+      }
+    }
+  }
+  .inputChat {
+    border-top: 1px solid #e9ecef;
+    background-color: #e9ecef;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0.5rem;
+    padding-left: 0;
+    .Chaticon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .inputText {
+      outline: none;
+      border: none;
+      width: 240px;
+      font-weight: lighter;
+    }
+  }
+  .ChatContent {
+    padding: 0.5rem;
+    .messageLine {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      .iconChat {
+        background-color: #e9ecef;
+        border-radius: 14px;
+        margin: 3px;
+      }
+      .message {
+        background-color: #e9ecef;
+        padding: 0.5rem;
+        font-weight: 300;
+      }
+    }
+    .messageMyLine {
+      display: flex;
+      justify-content: end;
+      padding-right: 1rem;
+      p {
+        background-color: rgba(5, 13, 245, 0.5);
+        padding: 0.5rem;
+        font-weight: 300;
+        color: #e9ecef;
+      }
+    }
+  }
+}
